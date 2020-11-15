@@ -12,4 +12,13 @@ public class MyRestController {
     public String someinfo(){
         return "Try to sing this: Blaaaa bla blaaa bla bla!";
     }
+    @GetMapping("/otherinfo")
+    public String otherinfo(){
+        return "Weather forecast: Nice and rainy";
+    }
+
+    @GetMapping("/tomorrow")
+    public String tomorrow(){
+        return "Snow...";
+    }
 }
