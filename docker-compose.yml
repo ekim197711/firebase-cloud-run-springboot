@@ -1,0 +1,10 @@
+version: 3
+
+services:
+  mike-firebase2:
+    image: //:latest
+    hostname: 0.0.0.0
+    ports:
+      - 8080:8080
+    expose:
+      - 8080
